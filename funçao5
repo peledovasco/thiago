@@ -1,0 +1,24 @@
+programa {
+
+  
+
+  funcao inicio() {
+   	 maior()
+  }
+  
+  funcao maior(){
+  inteiro valor, vezes, maior = 0
+  para(vezes = 1; vezes <= 8; vezes++){
+      escreva("Digite 8 valores: \n")
+      leia(valor)
+
+      se(vezes == 1){
+        maior = valor 
+      }
+      senao se(valor > maior){
+        maior = valor
+      }
+    }
+    escreva("Maior valor é: " + maior)
+  }
+}
