@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+real a,b,c, media
+		escreva("digite a nota A \n")
+		leia(a)
+		
+		escreva("digite a nota B \n")
+		leia(b)
+		
+		escreva("digite a nota C \n")
+		leia(c)
+
+		media = somarNumeros(a,b,c)
+		escreva("A média é: "+media)
+	}
+	
+	funcao real somarNumeros(real a, real b, real c){
+		real media = (a+b+c)/3
+		se(media >= 7){
+			escreva("Aprovado\n")
+		}senao{
+			escreva("Reprovado\n")
+		}
+		
+		retorne media
+		}
+}
