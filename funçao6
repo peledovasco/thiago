@@ -1,0 +1,20 @@
+programa {
+
+  
+
+  funcao inicio() {
+   	 vetoo()
+  }
+  
+  funcao vetoo(){
+  inteiro valor, vezes
+  inteiro vetor[4]
+  para(vezes = 0; vezes <= 3; vezes++){
+      escreva("Digite um valor: \n")
+      leia(vetor[vezes])
+  }
+  	para(vezes = 0; vezes <= 3; vezes++){
+      escreva("o valor "+vetor[vezes]+" x2 é: " + vetor[vezes]*2+"\n")
+    }
+  }
+ }
